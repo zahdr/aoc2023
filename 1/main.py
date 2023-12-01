@@ -9,6 +9,6 @@ with open("input.txt") as file:
         if len(number_in_line) <= 1:
             sum += int(number_in_line + number_in_line)
         else:
-            sum +=  int(number_in_line[0] + number_in_line[-1])
+            sum += int(number_in_line[0] + number_in_line[-1])
 
 print(sum)
